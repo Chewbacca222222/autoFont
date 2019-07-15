@@ -10,7 +10,7 @@ I’ve included an example document which demonstrates a couple of use cases.
 
 To start, any text element that you would like to resize needs to have the class of `autoFontFill` on it, by using this class the text element will now automatically fill the parent element. For example:
 
-```sh
+```
 <h1 class="autoFontFill">The quick brown fox jumps over the lazy dog.</h1>
 ```
 
@@ -18,25 +18,25 @@ To start, any text element that you would like to resize needs to have the class
 
 To add a minimum font size to an element use `data-autoFont-min=""`, this will stop the font size from reducing at whatever size specified. For example:
 
-```sh
+```
 <h1 class="autoFontFill" data-autoFont-min="10">The quick brown fox jumps over the lazy dog.</h1>
 ```
 
 For a maximum font size its `data-autoFont-max=""`, this will stop the font size from increasing at whatever size specified. For exmaple:
 
-```sh
+```
 <h1 class="autoFontFill" data-autoFont-max="100">The quick brown fox jumps over the lazy dog.</h1>
 ```
 
 By default the text will fill 100% of the available space, if you wanted to fill, for example only 50% use  `data-autoFont-width=""`, this will only allow the font to take up X% of the space. For example:
 
-```sh
+```
 <h1 class="autoFontFill" data-autoFont-width="50">The quick brown fox jumps over the lazy dog.</h1>
 ```
 
 To edit the poll rate (effectively changing the amount of times it runs during a resize event) use the following in a JS file, placed before the `autoFont.min.js` file:
 
-```sh
+```javascript
 var autoFontResizeRate = 100;
 ```
 
