@@ -2,7 +2,7 @@
 
 ### Installation instructions
 
-Simply include `autoFont.min.js` at the bottom of your html document, the css will automatically generate as it is only a few lines.
+Simply include `autoFont.min.js` at the bottom of your html document, the css will automatically generate as it is only a few lines. Or include: `<script src="https://raw.githubusercontent.com/Chewbacca222222/autoFont/master/autoFont.min.js"></script>`
 
 ### How to use
 
