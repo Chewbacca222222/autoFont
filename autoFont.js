@@ -1,3 +1,6 @@
+// autoFont.js
+// written by https://github.com/Chewbacca222222
+
 var autoFontFill;
 var autoFontResizeTimer;
 
